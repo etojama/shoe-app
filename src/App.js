@@ -1,6 +1,6 @@
 import "./App.css";
 import { data } from "./data";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Signup } from "./Signup";
 import { Contact } from "./Contact";
 import { Shoes } from "./Shoes";
@@ -23,13 +23,28 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h2>SHOEING</h2>
-      <p>Wont you rather shoe with us? </p>
-      <Categories categories={categories} filterItems={filterItems} />
+    <div id="top" className="app">
+      <h2 className="title">BRAZZY FOOTIES</h2>
+
+      <p>
+        Wont you rather shoe up with us? The highest quality footwears are{" "}
+        <span className="here">here</span>! <a href="#contact">Contact us</a>
+      </p>
+      <Categories
+        categories={categories}
+        filterItems={filterItems}
+        id="contact"
+      />
       <Shoes shoeLists={shoeLists} />
+      <br />
+      <br />
       <Signup />
+      <br />
+      <br />
       <Contact />
+      <br />
+      <br />
+      <a href="#top">Back to top</a>
     </div>
   );
 }

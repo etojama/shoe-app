@@ -20,7 +20,7 @@ export const Signup = () => {
   };
 
   return (
-    <div>
+    <div className="signup">
       <form action="" onSubmit={handleSubmit}>
         <label htmlFor="name">Name: </label>
         <input
@@ -30,7 +30,8 @@ export const Signup = () => {
           placeholder="enter your name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-        />
+        />{" "}
+        <br /> <br />
         <label htmlFor="email">Email: </label>
         <input
           type="text"
@@ -39,8 +40,10 @@ export const Signup = () => {
           placeholder="enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-        />
-        <button>Sign Up</button>
+        />{" "}
+        <br />
+        <br />
+        <button className="sign-button">Sign Up</button>
       </form>
     </div>
   );

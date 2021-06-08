@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 
-export const Contact = () => {
+export const Contact = ({ contact }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div>
-      <button onClick={() => setShow(!show)}>Contact us</button>
+    <div className="show">
+      <button
+        className="show-button"
+        id="contact"
+        onClick={() => setShow(!show)}
+      >
+        Click here to contact us
+      </button>
       {show && <Item />}
     </div>
   );
@@ -13,9 +19,9 @@ export const Contact = () => {
 
 const Item = () => {
   return (
-    <div>
-      <h4>Phone No: +233xxxxxxx</h4>
-      <h5>Email: shoes@example.com</h5>
+    <div className="item">
+      <h3>Phone No: +233xxxxxxx</h3> <br />
+      <h4>Email: shoes@example.com</h4>
     </div>
   );
 };

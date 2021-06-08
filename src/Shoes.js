@@ -6,10 +6,12 @@ export const Shoes = ({ shoeLists }) => {
       {shoeLists.map((d) => {
         const { id, price, img, name } = d;
         return (
-          <article key={id}>
-            <p>${price}</p>
-            <h3>{name}</h3>
-            <img src={img} alt={name} height="300px" width="300px" />
+          <article key={id} className="shoe-item">
+            <img src={img} alt={name} className="pix" />
+            <div className="shoe-info">
+              <h3 className="name">{name}</h3>
+              <p className="price">${price}</p>
+            </div>
           </article>
         );
       })}
