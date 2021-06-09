@@ -7,11 +7,25 @@ export const data = [
     img: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=343&q=80",
   },
   {
+    id: 6,
+    name: "Rugged",
+    category: "Mens",
+    price: 30.21,
+    img: "https://images.unsplash.com/photo-1512675828443-4f454c42253a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  },
+  {
     id: 2,
     name: "Heterored",
     category: "Sneakers",
     price: 42.19,
     img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+  },
+  {
+    id: 11,
+    name: "Flat goldie",
+    category: "Ladies",
+    price: 40.55,
+    img: "https://images.unsplash.com/photo-1604136172384-b2e9c43271ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80",
   },
   {
     id: 3,
@@ -34,13 +48,7 @@ export const data = [
     price: 50.11,
     img: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
   },
-  {
-    id: 6,
-    name: "Rugged",
-    category: "Mens",
-    price: 30.21,
-    img: "https://images.unsplash.com/photo-1512675828443-4f454c42253a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-  },
+
   {
     id: 7,
     name: "Shinny brown",
@@ -68,12 +76,5 @@ export const data = [
     category: "Ladies",
     price: 43.51,
     img: "https://images.unsplash.com/photo-1534653299134-96a171b61581?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80",
-  },
-  {
-    id: 11,
-    name: "Flat goldie",
-    category: "Ladies",
-    price: 40.55,
-    img: "https://images.unsplash.com/photo-1604136172384-b2e9c43271ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80",
   },
 ];

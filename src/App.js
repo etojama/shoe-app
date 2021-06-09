@@ -24,17 +24,25 @@ function App() {
 
   return (
     <div id="top" className="app">
-      <h2 className="title">BRAZZY FOOTIES</h2>
+      <div className="header">
+        <h2 className="title">BRAZZY FOOTIES</h2>
+        <p id="pw">
+          Wont you rather shoe up with us? The highest quality{" "}
+          <span style={{ color: "darkSalmon" }}>footwears</span> are here!
+        </p>
+        <br />
 
-      <p>
-        Wont you rather shoe up with us? The highest quality footwears are{" "}
-        <span className="here">here</span>! <a href="#contact">Contact us</a>
-      </p>
+        <a href="#contact">Contact us</a>
+      </div>
+      <br />
       <Categories
         categories={categories}
         filterItems={filterItems}
         id="contact"
       />
+
+      <div className="underline"></div>
+      <br />
       <Shoes shoeLists={shoeLists} />
       <br />
       <br />
